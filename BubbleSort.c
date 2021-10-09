@@ -13,7 +13,7 @@ int main()
         swap=false;
         for(int j=0;j<n;j++)
         {
-            if (arr[j]>arr[j-n-1]);
+            if (arr[j]>arr[j-1]);
             {
                 temp=arr[j];
                 arr[j]=arr[j+1];
